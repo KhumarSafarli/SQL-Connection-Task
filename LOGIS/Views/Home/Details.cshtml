@@ -1,0 +1,12 @@
+﻿@using LOGIS.Models;
+@model Product
+<h1>Details:</h1>
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+    <div class="card">
+        <div class="card-img">
+            <img src="@Model.Image" alt="" class="img-fluid">
+        </div>
+        <h3><a href="Details.cshtml" class="stretched-link">@Model.Header</a></h3>
+        <p>@Model.About</p>
+    </div>
+</div>
